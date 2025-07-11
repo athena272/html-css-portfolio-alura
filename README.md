@@ -12,7 +12,7 @@
 
 ## Feito por:
 
-### Joana Santos
+### Guilherme R. Alves
 
 ### Linkedin: https://www.linkedin.com/school/aluracursos/
 
