@@ -1,6 +1,6 @@
 # html-css-portfolio-alura
 
-![image](https://user-images.githubusercontent.com/77756047/211304452-220fedf0-f91b-490f-8a65-a60ce860bc5c.png)
+<img width="1379" height="904" alt="image" src="https://github.com/user-attachments/assets/e743780b-8af4-479e-9602-c35afb5f4cee" />
 
 ## Ferramentas utilizadas:
 
