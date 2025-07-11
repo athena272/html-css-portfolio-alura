@@ -1,27 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root {
+    --color-primary: #000000;
+    --color-secondary: #F6F6F6;
+    --color-accent: #22D4FD;
+    --color-hover: #272727;
+
+    --font-primary: 'Krona One', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
-    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-family: var(--font-secondary);
+}
+
+.header {
+    padding: 2% 0 0 15%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.menu__link {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: none;
 }
 
 .presentation {
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.content {
-    width: 620px;
+.presentation__content {
+    width: 615px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -29,30 +55,60 @@ body {
 
 .content__title {
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font-primary);
 }
 
 .content__title--highlight {
-    color: #22D4FD;
+    color: var(--color-accent);
 }
 
 .content__text {
     font-size: 24px;
 }
 
+.content__subtitle {
+    font-size: 24px;
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
 .content__links {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 
 .content__link {
-    background-color: #22D4FD;
-    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--color-accent);
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: var(--color-secondary);
+    transition: background-color 0.3s;
+}
+
+.content__link:hover {
+    background-color: var(--color-hover);
+}
+
+.presentation__image {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
 }

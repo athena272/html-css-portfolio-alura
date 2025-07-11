@@ -6,30 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="menu__link" href="index.html">Home</a>
+            <a class="menu__link" href="about.html">About Me</a>
+            <a class="menu__link" href="resume.html">Resume</a>
+        </nav>
+    </header>
+
     <main class="presentation">
-        <section class="content">
+        <section class="presentation__content">
             <h1 class="content__title">
                 Take your digital business to the next level
-                <strong class="content__title--highlight"> with a high-quality Front-end!</strong>
+                <strong class="content__title--highlight">with a high-quality Front-end!</strong>
             </h1>
             <p class="content__text">
                 Hello! I'm Joana Santos, a Front-end developer specialized in React, HTML, and CSS.
-                I help small businesses and designers turn great ideas into reality. Shall we talk?
+                I help small businesses and designers turn great ideas into reality. Let's talk?
             </p>
             <div class="content__links">
-                <a class="content__link" href="https://www.instagram.com/guigo_rosario">Instagram</a>
-                <a class="content__link" href="https://github.com/athena272">GitHub</a>
+                <h2 class="content__subtitle">Find me on</h2>
+                <a class="content__link" href="https://github.com/athena272">
+                    <img src="./images/github.png" alt="GitHub logo">
+                    GitHub
+                </a>
+                <a class="content__link" href="https://www.linkedin.com/in/guigorosario/">
+                    <img src="./images/linkedin.png" alt="LinkedIn logo">
+                    LinkedIn
+                </a>
+                <a class="content__link" href="https://twitch.tv/guilimadev">
+                    <img src="./images/twitch.png" alt="Twitch logo">
+                    Twitch
+                </a>
             </div>
         </section>
         <img class="presentation__image" src="./images/portfolio-profile-picture.png"
             alt="Photo of Joana Santos coding">
     </main>
-    <footer></footer>
+
+    <footer class="footer">
+        <p>Developed by Alura.</p>
+    </footer>
 </body>
 
 </html>
