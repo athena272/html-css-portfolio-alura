@@ -14,5 +14,5 @@
 
 ### Guilherme R. Alves
 
-### Linkedin: https://www.linkedin.com/school/aluracursos/
+### Linkedin: https://athena272.github.io/html-css-portfolio-alura/
 
